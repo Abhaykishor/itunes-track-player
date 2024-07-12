@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTunes Track Player</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>iTunes Track Player</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for tracks...">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="results-container">
+            <h2>Search Results</h2>
+            <ul id="search-results"></ul>
+        </div>
+        <div class="playlist-container">
+            <h2>Playlist</h2>
+            <ul id="playlist"></ul>
+        </div>
+        <div class="player-container">
+            <audio id="audio-player" controls></audio>
+        </div>
+    </div>
+    <script src="script/app.js"></script>
+</body>
+</html>
